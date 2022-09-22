@@ -9,7 +9,7 @@ function miFrase() {
         adj.forEach(function (element2) {
             noun.forEach(function (element3) {
                 domain.forEach(function (element4) {
-                    result.push(element1 + element2 + element3 + element4 + "<br/>")
+                    result.push(element1 + element2 + element3 + element4 +"<br/>")
                 })
             })
         })
